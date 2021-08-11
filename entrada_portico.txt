@@ -1,0 +1,29 @@
+﻿Informações de Controle
+Número de nós, Número de Materiais, Número de Elementos
+7 1 6 
+Informações dos Nós (usas a função split)
+ID, X(m), Y(m), Rx, Ry, Rm, Px(N), Py(N),Mz(Nm)
+1 0 0 1 1 1 0 0 0
+2 3 0 1 1 1 0 0 0
+3 6 0 1 1 1 0 0 0
+4 6 3 0 0 0 -40000 0 0
+5 6 5 0 0 0 0 0 0
+6 3 5 0 0 0 0 -40000 0
+7 0 3 0 0 0 0 0 0
+Informações dos Materiais
+ID, Area(m²), J(m^4), E(Pa), G(Pa)
+1 0.0144 0.00001728 20500000000 0
+ID, NO_in, No_fim, Material_id
+1 4 3 1
+2 5 4 1
+3 6 5 1
+4 6 7 1
+5 7 1 1
+6 6 2 1
+tipo de carregamento,valor do carregamento(N/m), elemento que o carregamento é aplicado
+1 -10000 1
+1 -10000 2
+0 0 3
+0 0 4
+0 0 5
+1 -10000 6
